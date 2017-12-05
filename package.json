@@ -1,11 +1,11 @@
 {
-  "name": "react-infinite",
+  "name": "@cwmoo740/react-infinite",
   "version": "0.12.1",
   "description": "A browser-ready efficient scrolling container based on UITableView",
   "main": "build/react-infinite.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/seatgeek/react-infinite"
+    "url": "https://github.com/cwmoo740/react-infinite"
   },
   "keywords": [
     "react",
@@ -16,9 +16,6 @@
   ],
   "author": "Gareth Tan",
   "license": "BSD-3-Clause",
-  "bugs": {
-    "url": "https://github.com/seatgeek/react-infinite/issues"
-  },
   "browser": "build/react-infinite.js",
   "scripts": {
     "test": "jest",
@@ -35,24 +32,7 @@
     "*.js": "npm run fix",
     "*.jsx": "npm run fix"
   },
-  "jest": {
-    "transform": {
-      ".*": "<rootDir>/node_modules/babel-jest"
-    },
-    "roots": [
-      "<rootDir>/__tests__",
-      "<rootDir>/src"
-    ],
-    "testPathIgnorePatterns": [
-      "<rootDir>/__tests__/helpers"
-    ],
-    "unmockedModulePathPatterns": [
-      "<rootDir>/node_modules/react"
-    ],
-    "collectCoverage": true,
-    "verbose": true
-  },
-  "homepage": "https://github.com/seatgeek/react-infinite",
+  "homepage": "https://github.com/cwmoo740/react-infinite",
   "devDependencies": {
     "babel-eslint": "7.2.3",
     "babel-jest": "20.0.3",
